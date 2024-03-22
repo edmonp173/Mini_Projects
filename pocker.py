@@ -1,3 +1,21 @@
+# Welcome to Pocker Structur Game
+
+# in func main you can choose the amount of players
+
+# when you run:
+# the program build a deck of card and shuffle it,
+# than print all the cards and who Win
+
+# First Line: players hands [player1] [player2] .... 
+# Second Line: what opened on the table
+# And in the last the player who Won
+
+# I calculate who wins by score,
+# I give a score to every player who passed the poker tasks
+
+
+
+
 import random
 
 
