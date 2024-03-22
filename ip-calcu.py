@@ -13,7 +13,7 @@ def ip_to_list(ip_address):
            res //= 2
         while len(list1) < 8 :
          list1.append(0)
-        list2.append(list1.join[::-1])
+        list2.append("".join(map(str,list1[::-1])))
     print(list2) 
 if __name__ == "__main__":
    ip_to_list("11.12.13.14")
