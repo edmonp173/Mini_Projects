@@ -1,4 +1,4 @@
-bac= int(5)
+bac= int(input("what number of base you want?: "))
 num = 0
 num_1 = "* "
 sps = " "
