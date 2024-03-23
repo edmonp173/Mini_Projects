@@ -83,7 +83,6 @@ def duplicate(numbers,score,full_house,four_du):
             score[0] += (i*2)
             if occurrences[i] == 4:
                 four_du[0]=True
-                #1500 points to 4 duplicate
             elif occurrences[i] == 3:
                 for e in occurrences.values():
                     if e == 2:
