@@ -1,6 +1,6 @@
 # Welcome to Pocker Structur Game
 
-# in func main you can choose the amount of players
+# in func main you can choose the amount of players, by default its 3
 
 # when you run:
 # the program build a deck of card and shuffle it,
@@ -120,7 +120,7 @@ def combo(lst,score,longest_sequence):
 
 def main():
     edmon = []
-    amount_of_players = 4
+    amount_of_players = 3
     player_hands = players(amount_of_players)
     on_table = deal_hand(the_deck, 5)
     for i, hand in enumerate(player_hands):
